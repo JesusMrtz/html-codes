@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clase 11 | Interactividad y contenido embebido</title>
+</head>
+
+<body>
+    <dialog id="modal">
+        <h2>Curso HTML5 desde cero</h2>
+        <p>Es gratis para que me liberen de tutorias</p>
+        <button id="btn-cerrar">Cerrar</button>
+    </dialog>
+    <button id="button">Abrir modal</button>
+    <h2>Interactividad</h2>
+    <details>
+        <summary>HTML5</summary>
+        <p>Lenguaje de marcado de hipertexto</p>
+        <p>SE creó en 1989</p>
+    </details>
+
+    <script>
+        const button = document.getElementById("button");
+        const modal = document.getElementById("modal");
+        const btnCerrar = document.getElementById("btn-cerrar");
+
+        button.addEventListener("click", () => modal.setAttribute("open", true));
+        btnCerrar.addEventListener("click", () => modal.removeAttribute("open"));
+    </script>
+</body>
+
+</html>

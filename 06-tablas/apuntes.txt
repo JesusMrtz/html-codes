@@ -1,0 +1,1 @@
+* colspan. Dice cuantas celdas agarrará

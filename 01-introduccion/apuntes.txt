@@ -1,0 +1,59 @@
+¿Qué es HTML?
+- Hyper Text Markup Language
+- La web es es un conjunto de documentos HTML enlazados a trevés de Hypertexto
+
+
+La web se conforma de tres conceptos
+    - Url. Uniform Resource Locator
+    - Http. Hypertext Transfer Protocol
+    - HTML. Hyper text Markup Language
+
+
+Historia de HTML
+    1989. Inicio de su desarrollo 
+    1991. Lanzamiento de la web 
+    1992. Lanzamiento de HTML
+    1994. Creación de W3C 
+    1998. HTML 4.01 - XHTML 
+    2004. WHATWG 
+    2008. HTML5
+    2014. Recomendación HTML5 
+    2016. HTML5.1
+    2017. HTML5.2 
+
+
+¿Qué contiene HTML5? 
+    - Web semántica 
+    - LocalStorage 
+    - Acceso al dispositivo 
+    - Web socket 
+    - Multimedia 
+    - Gráfico (SVG, Canvas, WebGl)
+    - Web workers
+    - CSS3
+
+
+W3C y especificaciones 
+    - Working Draft (WD)
+    - Candidate Recomendation (CR)
+    - Proposed Recomendation (PR) 
+    - Recomendation (REC)
+
+
+Los navegadores 
+    1993. MOSAIC 
+    1994. Netscape 
+    1995. Internet Explorer 
+    1996. Opera 
+    2003. Safari 
+    2004. Mozilla firefox 
+    2008. Google Chrome 
+
+Actualidad 
+    - El navegador como sistema operativo 
+    - PWA
+    - Chromebook 
+    - Electron
+    - Ionic 
+    - React native 
+    - Web components

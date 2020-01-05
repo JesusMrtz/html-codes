@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clase 09 | Múltimedia</title>
+</head>
+
+<body>
+    <h1>Múltimedia</h1>
+    <h2>Videos</h2>
+    <div>
+        <div class="container__video">
+            <video id="video" src="../media/kodigo.mp4" width="500" poster="../img/kodigo.png" controls></video>
+        </div>
+        <div class="container__buttons">
+            <button id="play">Play</button>
+            <button id="pause">Pause</button>
+        </div>
+    </div>
+    <h2>Audio</h2>
+    <audio src="../media/audio.mp3" controls></audio>
+
+    <script>
+        const video = document.getElementById("video");
+        const play = document.getElementById("play");
+        const pause = document.getElementById("pause");
+
+        play.addEventListener("click", () => video.play());
+        pause.addEventListener("click", () => video.pause());
+    </script>
+</body>
+
+</html>

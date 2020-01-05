@@ -1,0 +1,7 @@
+* Diferencia entre enlaces en linea y de bloque:
+    - Un elemento de bloque ocupa el 100% de su ancho
+    - Un elemento de línea ocupa el tamaño necesario de su contenido
+
+* HAy dos tipos de rutas: 
+    - Rutas absolutas. No se repiten e inician con un protocolo (http, https)
+    - Rutas relativas. Depende de las carpetas del proyecto
